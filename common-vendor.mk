@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/nokia/xl/common-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/i8552/common-vendor-blobs.mk)

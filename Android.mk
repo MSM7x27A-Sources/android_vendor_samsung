@@ -18,7 +18,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnv
-LOCAL_MODULE_OWNER := nokia
+LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := common/lib/$(LOCAL_MODULE).so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
@@ -27,8 +27,8 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := liboncrpc
-LOCAL_MODULE_OWNER := nokia
-LOCAL_SRC_FILES := xl/lib/$(LOCAL_MODULE).so
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := i8552/lib/$(LOCAL_MODULE).so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -36,7 +36,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudcal
-LOCAL_MODULE_OWNER := jsr
+LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := common/lib/$(LOCAL_MODULE).so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
